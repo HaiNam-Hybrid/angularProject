@@ -1,0 +1,23 @@
+
+.selected{
+  background: seagreen !important;
+  color: white;
+}
+.movies{
+  background: mediumslateblue;
+  padding: 0.5em 1em 0.5em 1.5em;
+  margin: 0.3em;
+  max-width: 16em;
+}
+.moviesListItem{
+  font-size: 0.875em;
+  background: aquamarine;
+  padding: 0.5em;
+  margin: 0.3em;
+  text-align: left;
+  font-family: Georgia, Serif;
+}
+.parent{
+display: flex;
+}
+

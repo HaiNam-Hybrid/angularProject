@@ -1,0 +1,15 @@
+
+
+<div *ngIf="movie" class="details">
+  <h3>Idol Selected Information</h3>
+  <table>
+    <tr style="width: 100%">
+      <td>Name: </td>
+      <td><input [(ngModel)]="movie.name"></td>
+    </tr>
+    <tr style="width: 100%">
+      <td>Born Year: </td>
+      <td><input [(ngModel)]="movie.releaseYear"></td>
+    </tr>
+  </table>
+</div>

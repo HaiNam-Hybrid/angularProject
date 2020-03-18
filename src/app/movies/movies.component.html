@@ -1,0 +1,16 @@
+
+<h2>My Favorite Idols</h2>
+<div class="parent">
+  <ol class="movies">
+    <li class="moviesListItem"
+        *ngFor="let eachMoive of movies"
+        [class.selected]="eachMoive===selectedMovie"
+        (click)="onSelect(eachMoive)"
+    >
+      {{eachMoive.name}}-{{eachMoive.releaseYear}}
+    </li>
+  </ol>
+ <app-movie-detail [movie]="selectedMovie"></app-movie-detail>
+</div>
+
+
